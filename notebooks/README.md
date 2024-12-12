@@ -13,7 +13,7 @@ git clone -b notebook_branch --single-branch --depth 1 git@github.com:QunaSys/ch
 1. notebooksディレクトリに移動
 
 ```bash
-cd notebooks
+cd  chemcrow-public/notebooks
 ```
 
 
