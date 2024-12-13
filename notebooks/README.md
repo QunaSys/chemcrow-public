@@ -3,7 +3,7 @@
 ## ブランチのクローン
 
 ```bash
-git clone -b notebook_branch --single-branch --depth 1 git@github.com:QunaSys/chemcrow-public.git
+git clone -b notebook_branch --single-branch --depth 1 https://github.com:QunaSys/chemcrow-public.git
 
 ```
 
