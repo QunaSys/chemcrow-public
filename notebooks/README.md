@@ -41,8 +41,16 @@ Windowsの場合
 pip install -e ..
 ```
 
-5. Jupyter Notebookを起動
+5. 仮想環境をJupyterのカーネルとして登録します：
+
+```bash
+python -m ipykernel install --user --name=.venv --display-name="Python (.venv)"
+```
+
+6. Jupyter Notebookを起動
 
 ```bash
 jupyter notebook
 ```
+
+7. ブラウザでJupyter Notebookが開くので、右上の「Kernel」メニューから「Change kernel」を選択し、先ほど作成した「Python (.venv)」を選択してください。
