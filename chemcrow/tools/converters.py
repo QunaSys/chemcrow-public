@@ -118,7 +118,6 @@ class SMILES2Name(BaseTool):
 
     def _run(self, query: str) -> str:
         """Use the tool."""
-        rdBase.DisableLog("rdApp.warning")
         try:
             if not is_smiles(query):
                 try:
